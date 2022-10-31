@@ -19,7 +19,7 @@ In Power BI Desktop you should set all these parameters (in the Power Query Edit
 1. **url:** the url where the connector is installed.
 2. **token:** the token used to use the connector. See auth.php file to change the way this token is validated. The token 'FREETOKEN' will work until you edit auth.php file. Also, you can add multiple tokens in auth.php file.
 3. **datacenter:** the MailChimp datacenter for your company. This datacenter is also used in Power BI report to create the url link to each record inside your MailChimp account. The datacenter is located in your MailChimp url account (i.e.: us1, us2, etc.).
-4. **mailchimp_api_key:** the api key to access MailChimp data. This token is created in your MailChimp account.
+4. **mailchimp_api_key:** the api key to access MailChimp data. This token is created in your MailChimp account: Account -> Profile -> Extras -> API keys
 
 This connector might be limited due to MailChimp API rate limitations.
 
